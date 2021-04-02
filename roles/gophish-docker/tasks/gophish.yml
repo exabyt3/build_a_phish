@@ -10,7 +10,7 @@
 - name: gophish container
   docker_container:
     name: gophish
-    image: gophish/gophish
+    image: exabyt3/gophish
     state: started
     user: root
     hostname: gophish
