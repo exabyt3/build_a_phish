@@ -15,17 +15,17 @@ digitalocean_size: "s-2vcpu-4gb"
 
 #OS Users
 users:
-  - username: ralph
-    name: Ralph May
+  - username: exabyt3
+    name: user
     authorized_keys:
-      - "https://github.com/ralphte.keys"
+      - "https://gist.githubusercontent.com/exabyt3/9607d8d0e89478d76093daab7f1374dd/raw/734d57c83f8899a8eac6d18f215e226b56fe20a5/key"
     home_create: yes
     append: yes
     home_mode: "0750"
     shell: '/usr/bin/zsh'
 users_authorized_keys_exclusive: yes
 security_sudoers_passwordless:
-    - ralph
+    - user
 
 
 ## EVERYTHING BLOW DOES NOT NEED TO BE CHNAGED
